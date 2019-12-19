@@ -40,6 +40,6 @@ def sum_array(array)
 end 
 
 
-def add_s (array)
+def add_s(array)
   array.each_with_index {|x, i| x << "s" unless i == 1 }
 end 
