@@ -41,4 +41,5 @@ end
 
 
 def add_s 
+  array.each_with_index.collect {|element, index| element << "s" unless i == 1 }
 end 
