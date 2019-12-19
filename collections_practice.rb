@@ -41,5 +41,5 @@ end
 
 
 def add_s 
-  array.each_with_index {|element, index| element << "s" unless i == 1 }
+  array.each_with_index {|x, i| x << "s" unless i == 1 }
 end 
